@@ -1,0 +1,179 @@
+Circuit: * C:\Users\okays\OneDrive\10_DevTech_GARAGE\SpaceTech_GARAGE\LTSpice\rsp02_LoadSW_OCP_Circuit_v2_0\rsp02_LoadSW_OCP_Circuit_v2_0.asc
+
+Iload_dc: both pins shorted together -- ignoring.
+Iload_ac: both pins shorted together -- ignoring.
+Model "u4:nmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+Model "u4:pmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+Model "u2:nmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+Model "u2:pmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+Model "u3:nmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+Model "u3:pmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+Model "q1:nmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+Model "q1:pmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+WARNING: Less than two connections to node N005.  This node is used by VIOEXPDR_TRAN.
+WARNING: Less than two connections to node N006.  This node is used by VRRX_TRAN.
+WARNING: Less than two connections to node N004.  This node is used by VIN_AC.
+WARNING: Less than two connections to node U5:U1:UA:TEST.  This node is used by E:U5:U1:UA:TEST.
+WARNING: Less than two connections to node U5:U1:UA:VTH_DIFF.  This node is used by E:U5:U1:UA:VTHDIFF.
+WARNING: Less than two connections to node U5:U1:UB:TEST.  This node is used by E:U5:U1:UB:TEST.
+WARNING: Less than two connections to node U5:U1:UB:VTH_DIFF.  This node is used by E:U5:U1:UB:VTHDIFF.
+Instance "m:u1:u1:t1:ni2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:t2:ni2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:t3:6": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:t3:6": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:mp1:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:t4:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:t4:1": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:md1:6": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:u4:1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:u2:2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:u2:1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:u3:2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:u3:1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:q1:2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:q1:1": Length shorter than recommended for a level 3 MOSFET.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+vernier = 0.5
+vernier = 0.666667
+Gmin = 0.0043261
+vernier = 0.888888
+vernier = 0.444444
+Gmin = 0.00109875
+vernier = 0.222222
+vernier = 0.111111
+vernier = 0.0555555
+vernier = 0.0277778
+Gmin = 0.00101279
+vernier = 0.0138889
+vernier = 0.00694444
+vernier = 0.00347222
+Gmin = 0.000999717
+vernier = 0.00173611
+vernier = 0.000868055
+vernier = 0.000434028
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 37.7841%
+Source Step = 37.9261%
+Source Step = 38.0445%
+Source Step = 38.1629%
+Source Step = 38.2813%
+Source Step = 38.3996%
+vernier = 0.00585938
+Source Step = 38.5594%
+Source Step = 38.737%
+Source Step = 38.9145%
+Source Step = 39.0921%
+Source Step = 39.2696%
+vernier = 0.00878906
+Source Step = 39.5005%
+Source Step = 39.7668%
+Source Step = 40.0331%
+Source Step = 40.2995%
+Source Step = 40.5658%
+vernier = 0.0131836
+Source Step = 40.8987%
+Source Step = 41.2982%
+Source Step = 41.6977%
+Source Step = 42.0972%
+Source Step = 42.4967%
+vernier = 0.0197754
+Source Step = 42.9761%
+Source Step = 43.5754%
+Source Step = 44.1747%
+Source Step = 44.7739%
+Source Step = 45.3732%
+vernier = 0.0296631
+Source Step = 46.0623%
+Source Step = 46.9612%
+Source Step = 47.8601%
+Source Step = 48.759%
+Source Step = 49.6578%
+vernier = 0.0444946
+Source Step = 50.6466%
+Source Step = 51.9949%
+Source Step = 53.3432%
+Source Step = 54.6916%
+Source Step = 56.0399%
+vernier = 0.0667419
+Source Step = 57.4556%
+Source Step = 59.4781%
+Source Step = 61.5006%
+Source Step = 63.5231%
+Source Step = 65.5456%
+Source Step = 67.568%
+vernier = 0.100113
+Source Step = 70.6018%
+Source Step = 73.6355%
+Source Step = 76.6692%
+Source Step = 79.7029%
+Source Step = 82.7367%
+vernier = 0.150169
+Source Step = 87.1356%
+Source Step = 91.6862%
+Source Step = 96.2367%
+Source stepping succeeded in finding the operating point.
+
+Ignoring empty pin current: Ix(u1:u1:u2:in+)
+Ignoring empty pin current: Ix(u1:u1:u2:in-)
+Ignoring empty pin current: Ix(u1:u1:sdcomp:in+)
+Ignoring empty pin current: Ix(u1:u1:sdcomp:in-)
+Ignoring empty pin current: Ix(u1:u1:vrvbcomp:in+)
+Ignoring empty pin current: Ix(u1:u1:vrvbcomp:in-)
+Ignoring empty pin current: Ix(u5:u1:ua:in)
+Ignoring empty pin current: Ix(u5:u1:ub:in)
+Ignoring empty pin current: Ix(u5:u1:ug:a)
+Ignoring empty pin current: Ix(u5:u1:ug:b)
+Ignoring empty pin current: Ix(u5:u1:ug:vcc)
+Ignoring empty pin current: Ix(u5:u1:outpd:vcc)
+Ignoring empty pin current: Ix(u5:u1:uout:in)
+Ignoring empty pin current: Ix(u5:u1:uout:vcc)
+Ignoring empty pin current: Ix(u5:u1:icc:viout)
+Ignoring empty pin current: Ix(u1:u1:u2:in+)
+Ignoring empty pin current: Ix(u1:u1:u2:in-)
+Ignoring empty pin current: Ix(u1:u1:sdcomp:in+)
+Ignoring empty pin current: Ix(u1:u1:sdcomp:in-)
+Ignoring empty pin current: Ix(u1:u1:vrvbcomp:in+)
+Ignoring empty pin current: Ix(u1:u1:vrvbcomp:in-)
+Ignoring empty pin current: Ix(u5:u1:ua:in)
+Ignoring empty pin current: Ix(u5:u1:ub:in)
+Ignoring empty pin current: Ix(u5:u1:ug:a)
+Ignoring empty pin current: Ix(u5:u1:ug:b)
+Ignoring empty pin current: Ix(u5:u1:ug:vcc)
+Ignoring empty pin current: Ix(u5:u1:outpd:vcc)
+Ignoring empty pin current: Ix(u5:u1:uout:in)
+Ignoring empty pin current: Ix(u5:u1:uout:vcc)
+Ignoring empty pin current: Ix(u5:u1:icc:viout)
+Heightened Def Con from 1.23585 +++to 1.23585
+Heightened Def Con from 1.23585 to 1.23585
+Heightened Def Con from 1.61456 +++++to 1.61456
+Heightened Def Con from 1.88548 +++to 1.88548
+
+Date: Sun May 09 12:26:25 2021
+Total elapsed time: 16.931 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 74807
+traniter = 70506
+tranpoints = 20558
+accept = 14821
+rejected = 5752
+matrix size = 327
+fillins = 283
+solver = Alternate
+Thread vector: 104.4/66.6[4] 25.9/19.2[4] 32.4/9.8[4] 6.3/4.0[4]  2592/500
+Matrix Compiler1: 35.17 KB object code size  18.9/14.7/[10.3]
+Matrix Compiler2: 33.50 KB object code size  10.6/12.2/[6.5]
+
