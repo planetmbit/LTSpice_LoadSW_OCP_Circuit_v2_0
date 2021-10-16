@@ -1,0 +1,109 @@
+Circuit: * C:\Users\okays\OneDrive\10_DevTech_GARAGE\SpaceTech_GARAGE\LTSpice\rsp02_LoadSW_OCP_Circuit_v2_0\rsp02_LoadSW_OCP_Circuit_5.0V_v2_0.asc
+
+Iload_dc: both pins shorted together -- ignoring.
+Iload_ac: both pins shorted together -- ignoring.
+Model "u4:nmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+Model "u4:pmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+Model "u2:nmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+Model "u2:pmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+Model "u3:nmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+Model "u3:pmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+WARNING: Less than two connections to node N005.  This node is used by VIOEXPDR_TRAN.
+WARNING: Less than two connections to node N006.  This node is used by VRRX_TRAN.
+WARNING: Less than two connections to node N004.  This node is used by VIN_AC.
+WARNING: Less than two connections to node U5:U1:UA:TEST.  This node is used by E:U5:U1:UA:TEST.
+WARNING: Less than two connections to node U5:U1:UA:VTH_DIFF.  This node is used by E:U5:U1:UA:VTHDIFF.
+WARNING: Less than two connections to node U5:U1:UB:TEST.  This node is used by E:U5:U1:UB:TEST.
+WARNING: Less than two connections to node U5:U1:UB:VTH_DIFF.  This node is used by E:U5:U1:UB:VTHDIFF.
+Instance "m:u1:u1:t1:ni2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:t2:ni2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:t3:6": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:t3:6": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:mp1:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:t4:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:t4:1": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:md1:6": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u8:2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:u8:1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:u4:2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:u4:1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:u2:2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:u2:1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:u3:2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:u3:1": Length shorter than recommended for a level 3 MOSFET.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+vernier = 0.5
+vernier = 0.666667
+Gmin = 0.0043261
+vernier = 0.888888
+vernier = 0.444444
+vernier = 0.222222
+Gmin = 0.00200053
+vernier = 0.111111
+vernier = 0.0555555
+vernier = 0.0277778
+vernier = 0.0138889
+Gmin = 0.00206122
+vernier = 0.00694444
+vernier = 0.00347222
+vernier = 0.00173611
+vernier = 0.000868055
+vernier = 0.000434028
+Gmin = 0
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Ignoring empty pin current: Ix(u1:u1:u2:in+)
+Ignoring empty pin current: Ix(u1:u1:u2:in-)
+Ignoring empty pin current: Ix(u1:u1:sdcomp:in+)
+Ignoring empty pin current: Ix(u1:u1:sdcomp:in-)
+Ignoring empty pin current: Ix(u1:u1:vrvbcomp:in+)
+Ignoring empty pin current: Ix(u1:u1:vrvbcomp:in-)
+Ignoring empty pin current: Ix(u5:u1:ua:in)
+Ignoring empty pin current: Ix(u5:u1:ub:in)
+Ignoring empty pin current: Ix(u5:u1:ug:a)
+Ignoring empty pin current: Ix(u5:u1:ug:b)
+Ignoring empty pin current: Ix(u5:u1:ug:vcc)
+Ignoring empty pin current: Ix(u5:u1:outpd:vcc)
+Ignoring empty pin current: Ix(u5:u1:uout:in)
+Ignoring empty pin current: Ix(u5:u1:uout:vcc)
+Ignoring empty pin current: Ix(u5:u1:icc:viout)
+Ignoring empty pin current: Ix(u1:u1:u2:in+)
+Ignoring empty pin current: Ix(u1:u1:u2:in-)
+Ignoring empty pin current: Ix(u1:u1:sdcomp:in+)
+Ignoring empty pin current: Ix(u1:u1:sdcomp:in-)
+Ignoring empty pin current: Ix(u1:u1:vrvbcomp:in+)
+Ignoring empty pin current: Ix(u1:u1:vrvbcomp:in-)
+Ignoring empty pin current: Ix(u5:u1:ua:in)
+Ignoring empty pin current: Ix(u5:u1:ub:in)
+Ignoring empty pin current: Ix(u5:u1:ug:a)
+Ignoring empty pin current: Ix(u5:u1:ug:b)
+Ignoring empty pin current: Ix(u5:u1:ug:vcc)
+Ignoring empty pin current: Ix(u5:u1:outpd:vcc)
+Ignoring empty pin current: Ix(u5:u1:uout:in)
+Ignoring empty pin current: Ix(u5:u1:uout:vcc)
+Ignoring empty pin current: Ix(u5:u1:icc:viout)
+
+Date: Sat Aug 07 11:21:46 2021
+Total elapsed time: 20.824 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 65822
+traniter = 64054
+tranpoints = 21608
+accept = 15385
+rejected = 6223
+matrix size = 301
+fillins = 172
+solver = Alternate
+Thread vector: 747.8/363.0[4] 36.4/25.6[4] 440.1/91.1[4] 12.1/23.9[1]  2592/500
+Matrix Compiler1: 27.31 KB object code size  20.4/16.7/[10.5]
+Matrix Compiler2: off  [18.4]/20.2/22.3
+
